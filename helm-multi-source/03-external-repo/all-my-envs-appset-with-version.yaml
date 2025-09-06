@@ -20,7 +20,7 @@ spec:
       project: default
 
       sources:
-        - repoURL: 'https://github.com/jjanus12/gitops-cert-level-3-examples.git'
+        - repoURL: https://kostis-codefresh.github.io/multi-sources-example
           chart: my-chart
           targetRevision: '{{.chart}}'
           helm:
